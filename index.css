@@ -1,7 +1,14 @@
+body{
+    display : flex;
+    justify-content: center; 
+    min-height: 100vh;
+    background: linear-gradient(#EE9CA7,#FFDDE1);
+}
 .CN-Style {
     width: 300px; 
     height: auto; 
     padding: 50px;
+    padding-top: 30px;
     border: 2px solid ; 
     border-radius: 10px; 
     box-shadow: 5px 5px 10px;
