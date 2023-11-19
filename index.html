@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management System</title>
+</head>
+<body>
+  <form id="myForm" onsubmit="showInput(event)">
+    <input type="text" id="userName" name="userName" required>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="result"></div>
+  <script> 
+  function showInput(event) {
+    event.preventDefault(); 
+     var userName = document.getElementById("userName").value;
+   document.getElementById("result").innerHTML = "Hi, " + userName + "!";
+   }
+</script>
+
+ <br>
+  <figure>
+    <img id="CN-Style" src="./cn 2.png"  alt="Computer Network">
+    <figcaption> <h2>Computer Network</h2><h5>Id=223344</h5> </figcaption>
+  </figure>
+  <figure>
+   <img id="MP-Style" src="./mp.png" alt="Microproccesor and microcontroller">
+   <figcaption><h2>Microproccesor and microcontroller</h2><h5>Id=456778</h5></figcaption>
+  </figure>
+  <figure>
+   <img id="DBMS-Style" src="./dbms.png" alt="Database Management System">
+    <figcaption><h2>Database Management System</h2><h5>Id=987654</h5></figcaption>
+   </figure>
+</body>
+</html>

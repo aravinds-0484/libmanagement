@@ -1,0 +1,37 @@
+.CN-Style {
+    width: 300px; 
+    height: auto; 
+    padding: 50px;
+    border: 2px solid ; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px;
+}
+.MP-Style {
+    width: 300px; 
+    height: auto; 
+    padding: 50px;
+    border: 2px solid ; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px;
+}
+.DBMS-Style {
+    width: 300px; 
+    height: auto; 
+    padding: 50px;
+    border: 2px solid ; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px;  
+}
+
+figure {
+
+    display: inline-block; /* Display figures in a row */
+    margin: 10px;
+}
+
+figcaption {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+    text-align: center;
+}
